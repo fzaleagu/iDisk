@@ -69,6 +69,12 @@
 		654CFBB01727B08500F30B00 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654CFBAF1727B08500F30B00 /* CoreData.framework */; };
 		654CFBB21727B08D00F30B00 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654CFBB11727B08D00F30B00 /* QuartzCore.framework */; };
 		654CFBB51727B16C00F30B00 /* ZJTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CFBB41727B16C00F30B00 /* ZJTTool.m */; };
+		654CFBBB1727B83100F30B00 /* RTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CFBB81727B83100F30B00 /* RTNavigationController.m */; };
+		654CFBBC1727B83200F30B00 /* RTSiderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CFBBA1727B83100F30B00 /* RTSiderViewController.m */; };
+		654CFBBF1727B9B400F30B00 /* ZJTBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CFBBE1727B9B400F30B00 /* ZJTBaseCell.m */; };
+		654CFBC21727B9CF00F30B00 /* ZJTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CFBC11727B9CF00F30B00 /* ZJTBaseViewController.m */; };
+		654CFBC51727C0A300F30B00 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CFBC41727C0A300F30B00 /* File.m */; };
+		654CFBC81727C42500F30B00 /* ZJTFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CFBC71727C42500F30B00 /* ZJTFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,9 +88,9 @@
 		654CFAF41727AC0800F30B00 /* iDisk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDisk-Prefix.pch"; sourceTree = "<group>"; };
 		654CFAF51727AC0800F30B00 /* ZJTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTAppDelegate.h; sourceTree = "<group>"; };
 		654CFAF61727AC0800F30B00 /* ZJTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTAppDelegate.m; sourceTree = "<group>"; };
-		654CFAF81727AC0800F30B00 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		654CFAFA1727AC0800F30B00 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		654CFAFC1727AC0800F30B00 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		654CFAF81727AC0800F30B00 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
+		654CFAFA1727AC0800F30B00 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../Default@2x.png"; sourceTree = "<group>"; };
+		654CFAFC1727AC0800F30B00 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
 		654CFAFE1727AC0800F30B00 /* ZJTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZJTViewController.h; path = ../ZJTViewController.h; sourceTree = "<group>"; };
 		654CFAFF1727AC0800F30B00 /* ZJTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZJTViewController.m; path = ../ZJTViewController.m; sourceTree = "<group>"; };
 		654CFB021727AC0800F30B00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZJTViewController.xib; sourceTree = "<group>"; };
@@ -188,6 +194,18 @@
 		654CFBB11727B08D00F30B00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		654CFBB31727B16C00F30B00 /* ZJTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTTool.h; sourceTree = "<group>"; };
 		654CFBB41727B16C00F30B00 /* ZJTTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTTool.m; sourceTree = "<group>"; };
+		654CFBB71727B83100F30B00 /* RTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNavigationController.h; sourceTree = "<group>"; };
+		654CFBB81727B83100F30B00 /* RTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNavigationController.m; sourceTree = "<group>"; };
+		654CFBB91727B83100F30B00 /* RTSiderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSiderViewController.h; sourceTree = "<group>"; };
+		654CFBBA1727B83100F30B00 /* RTSiderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSiderViewController.m; sourceTree = "<group>"; };
+		654CFBBD1727B9B400F30B00 /* ZJTBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTBaseCell.h; sourceTree = "<group>"; };
+		654CFBBE1727B9B400F30B00 /* ZJTBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTBaseCell.m; sourceTree = "<group>"; };
+		654CFBC01727B9CF00F30B00 /* ZJTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTBaseViewController.h; sourceTree = "<group>"; };
+		654CFBC11727B9CF00F30B00 /* ZJTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTBaseViewController.m; sourceTree = "<group>"; };
+		654CFBC31727C0A300F30B00 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		654CFBC41727C0A300F30B00 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		654CFBC61727C42500F30B00 /* ZJTFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTFileManager.h; sourceTree = "<group>"; };
+		654CFBC71727C42500F30B00 /* ZJTFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,9 +283,6 @@
 				654CFAEE1727AC0800F30B00 /* iDisk-Info.plist */,
 				654CFAF21727AC0800F30B00 /* main.m */,
 				654CFAF41727AC0800F30B00 /* iDisk-Prefix.pch */,
-				654CFAF81727AC0800F30B00 /* Default.png */,
-				654CFAFA1727AC0800F30B00 /* Default@2x.png */,
-				654CFAFC1727AC0800F30B00 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -275,6 +290,7 @@
 		654CFB091727AC6700F30B00 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				654CFBB61727B82700F30B00 /* RTNavigationController */,
 				654CFB0F1727AD2800F30B00 /* MagicalRecord */,
 				654CFB4B1727AD2800F30B00 /* OWActivityViewController */,
 			);
@@ -284,6 +300,8 @@
 		654CFB0A1727AC7600F30B00 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				654CFBC31727C0A300F30B00 /* File.h */,
+				654CFBC41727C0A300F30B00 /* File.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -291,6 +309,8 @@
 		654CFB0B1727AC8300F30B00 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				654CFBBD1727B9B400F30B00 /* ZJTBaseCell.h */,
+				654CFBBE1727B9B400F30B00 /* ZJTBaseCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +318,8 @@
 		654CFB0C1727AC8F00F30B00 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				654CFBC01727B9CF00F30B00 /* ZJTBaseViewController.h */,
+				654CFBC11727B9CF00F30B00 /* ZJTBaseViewController.m */,
 				654CFAFE1727AC0800F30B00 /* ZJTViewController.h */,
 				654CFAFF1727AC0800F30B00 /* ZJTViewController.m */,
 				654CFB011727AC0800F30B00 /* ZJTViewController.xib */,
@@ -321,6 +343,8 @@
 			children = (
 				654CFBB31727B16C00F30B00 /* ZJTTool.h */,
 				654CFBB41727B16C00F30B00 /* ZJTTool.m */,
+				654CFBC61727C42500F30B00 /* ZJTFileManager.h */,
+				654CFBC71727C42500F30B00 /* ZJTFileManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -475,8 +499,22 @@
 		654CFBA61727AEF700F30B00 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				654CFAF81727AC0800F30B00 /* Default.png */,
+				654CFAFA1727AC0800F30B00 /* Default@2x.png */,
+				654CFAFC1727AC0800F30B00 /* Default-568h@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		654CFBB61727B82700F30B00 /* RTNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				654CFBB71727B83100F30B00 /* RTNavigationController.h */,
+				654CFBB81727B83100F30B00 /* RTNavigationController.m */,
+				654CFBB91727B83100F30B00 /* RTSiderViewController.h */,
+				654CFBBA1727B83100F30B00 /* RTSiderViewController.m */,
+			);
+			path = RTNavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -598,6 +636,12 @@
 				654CFB991727AD2800F30B00 /* OWTwitterActivity.m in Sources */,
 				654CFB9C1727AD8500F30B00 /* Model.xcdatamodeld in Sources */,
 				654CFBB51727B16C00F30B00 /* ZJTTool.m in Sources */,
+				654CFBBB1727B83100F30B00 /* RTNavigationController.m in Sources */,
+				654CFBBC1727B83200F30B00 /* RTSiderViewController.m in Sources */,
+				654CFBBF1727B9B400F30B00 /* ZJTBaseCell.m in Sources */,
+				654CFBC21727B9CF00F30B00 /* ZJTBaseViewController.m in Sources */,
+				654CFBC51727C0A300F30B00 /* File.m in Sources */,
+				654CFBC81727C42500F30B00 /* ZJTFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
